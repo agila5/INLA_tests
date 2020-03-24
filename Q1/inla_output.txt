@@ -1,0 +1,574 @@
+[1] "MPredictor 0"
+[1] "NPredictor 173952"
+[1] "NData 173952"
+[1] "y...fake has length 173952"
+n.family 1 
+[1] "Entries with same length:" "highway"                  
+[3] "lanes"                     "highway_length"           
+[5] "hour_character"            "y...fake"                 
+[1] "prepare problem section"
+Prepare inla file.....inla.create.data.file: n.data =  173952 
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511c742b39"
+[1]      0 521856 173952      3      0      1      0      1
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517b6e8cf5"
+[1] 0 1 1 1 0 1 0 1
+[1] "prepare data section"
+[1] "prepare predictor section"
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908"
+[1]      0 347904 173952      2      0      1      0      1
+write label[ (Intercept) ]
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294"
+[1]      0 347904 173952      2      0      1      0      1
+file fixed $inladatadir/file1f513df49294 
+write label[ highwaysecondary ]
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd"
+[1]      0 347904 173952      2      0      1      0      1
+file fixed $inladatadir/file1f511fd7f8bd 
+write label[ highwaytertiary ]
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467"
+[1]      0 347904 173952      2      0      1      0      1
+file fixed $inladatadir/file1f517acd3467 
+write label[ highwaytrunk ]
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219"
+[1]      0 347904 173952      2      0      1      0      1
+file fixed $inladatadir/file1f514efb7219 
+write label[ lanes2 ]
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd"
+[1]      0 347904 173952      2      0      1      0      1
+file fixed $inladatadir/file1f515add97fd 
+write label[ lanes3 ]
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0"
+[1]      0 347904 173952      2      0      1      0      1
+file fixed $inladatadir/file1f51462961e0 
+1 iid   
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51539f8e1f"
+[1]  0 24 24  1  0  1  0  1
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51688046e7"
+[1]      0 347904 173952      2      0      0      0      1
+[1] "\nOpen file to write /tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019"
+[1]      0 347904 173952      2      0      0      0      1
+[1] "n 24"
+[1] "nrep 1"
+...done
+Run inla...*** /home/dsuser/R/x86_64-pc-linux-gnu-library/3.6/INLA/bin/linux/64bit/inla.run *** LD_LIBRARY_PATH=/home/dsuser/R/x86_64-pc-linux-gnu-library/3.6/INLA/bin/linux/64bit/first:/home/dsuser/R/x86_64-pc-linux-gnu-library/3.6/INLA/bin/linux/64bit/../../pardiso/libnopardiso/linux:/usr/lib/R/lib:/lib64:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib:/home/dsuser/R/x86_64-pc-linux-gnu-library/3.6/INLA/bin/linux/64bit:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/jdk1.8.0_231/jre/lib/amd64/server:/dsvm/tools/torch/install/lib:/opt/intel/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:/dsvm/tools/torch/install/lib:/opt/intel/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:/dsvm/tools/torch/install/lib:/opt/intel/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:/dsvm/tools/torch/install/lib:/opt/intel/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:/usr/lib/R/lib:/dsvm/tools/torch/install/lib:/opt/intel/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin::/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64/:::/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/jdk1.8.0_231/jre/lib/amd64/server:/dsvm/tools/torch/install/lib:/opt/intel/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64_lin/gcc4.7:/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin::/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64/:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64/:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64/:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64/:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64/
+	not a dynamic executable
+
+
+*************************************************************************** 
+CONTAINS Runtime Modules of Parallel Sparse Linear Solver PARDISO Vers. 6.0
+CUSTOMIZED FOR THE R-INLA PACKAGE WHICH SOLVES A LARGE CLASS OF STATISTICAL
+MODELS USING THE INLA APPROACH.                                            
+Copyright Universita della Svizzera Italiana 2000-2018 All Rights Reserved.
+
+No PARDISO license file found.  Please see `http://www.pardiso-project.org/r-inla
+where to place the license file pardiso.lic 
+*************************************************************************** 
+
+	hgid: 0bed76828f01  date: Tue Sep 03 11:21:49 2019 +0300
+Report bugs to <help@r-inla.org>
+Process file[/tmp/RtmpOdIyr7/file1f51b6f5399/Model.ini] threads[8] blas_threads[1]
+inla_build...
+	number of sections=[13]
+	parse section=[0] name=[INLA.libR] type=[LIBR]
+	inla_parse_libR...
+		section[INLA.libR]
+			R_HOME=[/usr/lib/R]
+	parse section=[12] name=[INLA.Expert] type=[EXPERT]
+	inla_parse_expert...
+		section[INLA.Expert]
+			disable.gaussian.check=[0]
+			cpo.manual=[0]
+			jp.file=[(null)]
+			jp.model=[(null)]
+	parse section=[1] name=[INLA.Model] type=[PROBLEM]
+	inla_parse_problem...
+		name=[INLA.Model]
+		R-INLA tag=[Version_19.09.03]
+		Build tag=[Version_19.09.03]
+		openmp.strategy=[default]
+		pardiso-library installed and working? = [no]
+		smtp = [taucs]
+		strategy = [default]
+	store results in directory=[/tmp/RtmpOdIyr7/file1f51b6f5399/results.files]
+		output:
+			cpo=[0]
+			po=[0]
+			dic=[0]
+			kld=[1]
+			mlik=[1]
+			q=[0]
+			graph=[0]
+			gdensity=[0]
+			hyperparameters=[1]
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	parse section=[3] name=[Predictor] type=[PREDICTOR]
+	inla_parse_predictor ...
+		section=[Predictor]
+		dir=[predictor]
+		PRIOR->name=[loggamma]
+		hyperid=[53001|Predictor]
+		PRIOR->from_theta=[function (x) <<NEWLINE>>exp(x)]
+		PRIOR->to_theta = [function (x) <<NEWLINE>>log(x)]
+		PRIOR->PARAMETERS=[1, 1e-05]
+		initialise log_precision[12]
+		fixed=[1]
+		user.scale=[1]
+		n=[173952]
+		m=[0]
+		ndata=[173952]
+		compute=[1]
+		read offsets from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 0/173952  (idx,y) = (0, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 1/173952  (idx,y) = (1, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 2/173952  (idx,y) = (2, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 3/173952  (idx,y) = (3, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 4/173952  (idx,y) = (4, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 5/173952  (idx,y) = (5, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 6/173952  (idx,y) = (6, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 7/173952  (idx,y) = (7, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 8/173952  (idx,y) = (8, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f516d54f908] 9/173952  (idx,y) = (9, 0)
+		Aext=[(null)]
+		AextPrecision=[1e+08]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	parse section=[2] name=[INLA.Data1] type=[DATA]
+	inla_parse_data [section 1]...
+		tag=[INLA.Data1]
+		family=[ZEROINFLATEDPOISSON0]
+		likelihood=[ZEROINFLATEDPOISSON0]
+		file->name=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511c742b39]
+		file->name=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f512e11a01a]
+		file->name=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517b6e8cf5]
+		read n=[521856] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511c742b39]
+		mdata.nattributes = 0
+			0/173952  (idx,a,y,d) = (0, 109.039, 0, 1)
+			1/173952  (idx,a,y,d) = (1, 172.703, 0, 1)
+			2/173952  (idx,a,y,d) = (2, 130.999, 0, 1)
+			3/173952  (idx,a,y,d) = (3, 143.595, 0, 1)
+			4/173952  (idx,a,y,d) = (4, 186.787, 0, 1)
+			5/173952  (idx,a,y,d) = (5, 157.985, 0, 1)
+			6/173952  (idx,a,y,d) = (6, 128.636, 0, 1)
+			7/173952  (idx,a,y,d) = (7, 126.704, 0, 1)
+			8/173952  (idx,a,y,d) = (8, 164.554, 0, 1)
+			9/173952  (idx,a,y,d) = (9, 105.448, 0, 1)
+		likelihood.variant=[0]
+		initialise prob_intern[-1]
+		fixed=[0]
+		PRIOR->name=[gaussian]
+		hyperid=[85001|INLA.Data1]
+		PRIOR->from_theta=[function (x) <<NEWLINE>>exp(x)/(1 + exp(x))]
+		PRIOR->to_theta = [function (x) <<NEWLINE>>log(x/(1 - x))]
+		PRIOR->PARAMETERS=[-1, 0.2]
+		Link model   [LOG]
+		Link order   [-1]
+		Link variant [-1]
+		Link ntheta  [0]
+		mix.use[0]
+	parse section=[10] name=[hour_character] type=[FFIELD]
+	inla_parse_ffield...
+		section=[hour_character]
+		dir=[random.effect00000001]
+		model=[iid]
+		PRIOR->name=[loggamma]
+		hyperid=[1001|hour_character]
+		PRIOR->from_theta=[function (x) <<NEWLINE>>exp(x)]
+		PRIOR->to_theta = [function (x) <<NEWLINE>>log(x)]
+		PRIOR->PARAMETERS=[1, 5e-05]
+		correct=[-1]
+		constr=[0]
+		diagonal=[0]
+		id.names=<read>
+		compute=[1]
+		nrep=[1]
+		ngroup=[1]
+		read covariates from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 0/173952  (idx,y) = (0, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 1/173952  (idx,y) = (1, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 2/173952  (idx,y) = (2, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 3/173952  (idx,y) = (3, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 4/173952  (idx,y) = (4, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 5/173952  (idx,y) = (5, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 6/173952  (idx,y) = (6, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 7/173952  (idx,y) = (7, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 8/173952  (idx,y) = (8, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f5144def019] 9/173952  (idx,y) = (9, 0)
+		file for locations=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51539f8e1f]
+			nlocations=[24]
+			locations[0]=[1]
+			locations[1]=[2]
+			locations[2]=[3]
+			locations[3]=[4]
+			locations[4]=[5]
+			locations[5]=[6]
+			locations[6]=[7]
+			locations[7]=[8]
+			locations[8]=[9]
+			locations[9]=[10]
+		cyclic=[0]
+		initialise log_precision[4]
+		fixed=[0]
+		computed/guessed rank-deficiency = [0]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	section=[4] name=[(Intercept)] type=[LINEAR]
+	inla_parse_linear...
+		section[(Intercept)]
+		dir=[fixed.effect00000001]
+		file for covariates=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 0/173952  (idx,y) = (0, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 1/173952  (idx,y) = (1, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 2/173952  (idx,y) = (2, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 3/173952  (idx,y) = (3, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 4/173952  (idx,y) = (4, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 5/173952  (idx,y) = (5, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 6/173952  (idx,y) = (6, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 7/173952  (idx,y) = (7, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 8/173952  (idx,y) = (8, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f513df49294] 9/173952  (idx,y) = (9, 1)
+		prior mean=[0]
+		prior precision=[0]
+		compute=[1]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	section=[5] name=[highwaysecondary] type=[LINEAR]
+	inla_parse_linear...
+		section[highwaysecondary]
+		dir=[fixed.effect00000002]
+		file for covariates=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 0/173952  (idx,y) = (0, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 1/173952  (idx,y) = (1, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 2/173952  (idx,y) = (2, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 3/173952  (idx,y) = (3, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 4/173952  (idx,y) = (4, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 5/173952  (idx,y) = (5, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 6/173952  (idx,y) = (6, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 7/173952  (idx,y) = (7, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 8/173952  (idx,y) = (8, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f511fd7f8bd] 9/173952  (idx,y) = (9, 0)
+		prior mean=[0]
+		prior precision=[0.001]
+		compute=[1]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	section=[6] name=[highwaytertiary] type=[LINEAR]
+	inla_parse_linear...
+		section[highwaytertiary]
+		dir=[fixed.effect00000003]
+		file for covariates=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 0/173952  (idx,y) = (0, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 1/173952  (idx,y) = (1, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 2/173952  (idx,y) = (2, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 3/173952  (idx,y) = (3, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 4/173952  (idx,y) = (4, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 5/173952  (idx,y) = (5, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 6/173952  (idx,y) = (6, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 7/173952  (idx,y) = (7, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 8/173952  (idx,y) = (8, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f517acd3467] 9/173952  (idx,y) = (9, 1)
+		prior mean=[0]
+		prior precision=[0.001]
+		compute=[1]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	section=[7] name=[highwaytrunk] type=[LINEAR]
+	inla_parse_linear...
+		section[highwaytrunk]
+		dir=[fixed.effect00000004]
+		file for covariates=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 0/173952  (idx,y) = (0, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 1/173952  (idx,y) = (1, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 2/173952  (idx,y) = (2, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 3/173952  (idx,y) = (3, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 4/173952  (idx,y) = (4, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 5/173952  (idx,y) = (5, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 6/173952  (idx,y) = (6, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 7/173952  (idx,y) = (7, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 8/173952  (idx,y) = (8, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f514efb7219] 9/173952  (idx,y) = (9, 0)
+		prior mean=[0]
+		prior precision=[0.001]
+		compute=[1]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	section=[8] name=[lanes2] type=[LINEAR]
+	inla_parse_linear...
+		section[lanes2]
+		dir=[fixed.effect00000005]
+		file for covariates=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 0/173952  (idx,y) = (0, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 1/173952  (idx,y) = (1, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 2/173952  (idx,y) = (2, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 3/173952  (idx,y) = (3, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 4/173952  (idx,y) = (4, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 5/173952  (idx,y) = (5, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 6/173952  (idx,y) = (6, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 7/173952  (idx,y) = (7, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 8/173952  (idx,y) = (8, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f515add97fd] 9/173952  (idx,y) = (9, 1)
+		prior mean=[0]
+		prior precision=[0.001]
+		compute=[1]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	section=[9] name=[lanes3] type=[LINEAR]
+	inla_parse_linear...
+		section[lanes3]
+		dir=[fixed.effect00000006]
+		file for covariates=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0]
+		read n=[347904] entries from file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0]
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 0/173952  (idx,y) = (0, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 1/173952  (idx,y) = (1, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 2/173952  (idx,y) = (2, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 3/173952  (idx,y) = (3, 1)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 4/173952  (idx,y) = (4, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 5/173952  (idx,y) = (5, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 6/173952  (idx,y) = (6, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 7/173952  (idx,y) = (7, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 8/173952  (idx,y) = (8, 0)
+		file=[/tmp/RtmpOdIyr7/file1f51b6f5399/data.files/file1f51462961e0] 9/173952  (idx,y) = (9, 0)
+		prior mean=[0]
+		prior precision=[0.001]
+		compute=[1]
+		output:
+			summary=[1]
+			return.marginals=[1]
+			nquantiles=[3]  [ 0.025 0.5 0.975 ]
+			ncdf=[0]  [ ]
+	Index table: number of entries[8], total length[173982]
+		tag                            start-index     length
+		Predictor                               0     173952
+		hour_character                     173952         24
+		(Intercept)                        173976          1
+		highwaysecondary                   173977          1
+		highwaytertiary                    173978          1
+		highwaytrunk                       173979          1
+		lanes2                             173980          1
+		lanes3                             173981          1
+	parse section=[11] name=[INLA.Parameters] type=[INLA]
+	inla_parse_INLA...
+		section[INLA.Parameters]
+			lincomb.derived.only = [Yes]
+			lincomb.derived.correlation.matrix = [No]
+		global_node.factor = 2.000
+		global_node.degree = 2147483647
+		reordering = -1
+Contents of ai_param 0x55fa630
+	Optimiser: DEFAULT METHOD
+		Option for GSL-BFGS2: tol  = 0.1
+		Option for GSL-BFGS2: step_size = 1
+		Option for GSL-BFGS2: epsx = 0.005
+		Option for GSL-BFGS2: epsf = 0.000353553
+		Option for GSL-BFGS2: epsg = 0.005
+		Restart: 0
+		Mode known: No
+	Gaussian approximation:
+		tolerance_func = 0.0005
+		tolerance_step = 0.0005
+		optpar_fp = 0
+		optpar_nr_step_factor = -0.1
+	Gaussian data: No
+	Strategy: 	Use the Gaussian approximation
+	Fast mode: 	On
+	Use linear approximation to log(|Q +c|)? Yes
+		Method:	 Compute the derivative exact
+	Parameters for improved approximations
+		Number of points evaluate:	 9
+		Step length to compute derivatives numerically:	 0.000100002
+		Stencil to compute derivatives numerically:	 5
+		Cutoff value to construct local neigborhood:	 0.0001
+	Log calculations:	 On
+	Log calculated marginal for the hyperparameters:	 On
+	Integration strategy:	 Automatic (GRID for dim(theta)=1 and 2 and otherwise CCD)
+		f0 (CCD only):	 1.100000
+		dz (GRID only):	 0.750000
+		Adjust weights (GRID only):	 On
+		Difference in log-density limit (GRID only):	 6.000000
+		Skip configurations with (presumed) small density (GRID only):	 On
+	Gradient is computed using Central difference with step-length 0.010000
+	Hessian is computed using Central difference with step-length 0.100000
+	Hessian matrix is forced to be a diagonal matrix? [No]
+	Compute effective number of parameters? [Yes]
+	Perform a Monte Carlo error-test? [No]
+	Interpolator [Auto]
+	CPO required diff in log-density [3]
+	Stupid search mode:
+		Status     [On]
+		Max iter   [1000]
+		Factor     [1.05]
+	Numerical integration of hyperparameters:
+		Maximum number of function evaluations [100000]
+		Relative error ....................... [1e-05]
+		Absolute error ....................... [1e-06]
+	To stabilise the numerical optimisation:
+		Minimum value of the -Hessian [-inf]
+	CPO manual calculation[No]
+	Laplace-correction is Disabled.
+
+inla_build: check for unused entries in[/tmp/RtmpOdIyr7/file1f51b6f5399/Model.ini]
+inla_INLA...
+	Strategy = [DEFAULT]
+	Sparse-matrix library... = [taucs]
+	OpenMP strategy......... = [huge]
+	Density-strategy........ = [Low]
+	Size of graph........... = [173982]
+	Number of constraints... = [0]
+	Found optimal reordering=[amdc] nnz(L)=[822669] and use_global_nodes(user)=[no]
+	List of hyperparameters: 
+		theta[0] = [intern zero-probability parameter for zero-inflated poisson_0]
+		theta[1] = [Log precision for hour_character]
+Optimise using DEFAULT METHOD
+max.logdens= -223584.5395 fn= 1 theta= -1.0000 3.9900  range=[-8.09 1.11]
+max.logdens= -222408.0533 fn= 3 theta= -0.9900 4.0000  range=[-8.08 1.11]
+max.logdens= -125067.9129 fn= 5 theta= -0.0000 3.9999  range=[-8.08 1.11]
+max.logdens= -124293.6605 fn= 7 theta= 0.0100 3.9999  range=[-8.08 1.11]
+max.logdens= -53874.4177 fn= 10 theta= 1.4860 3.9999  range=[-8.08 1.11]
+max.logdens= -53648.2934 fn= 12 theta= 1.4960 3.9999  range=[-8.08 1.11]
+max.logdens= -43938.3557 fn= 17 theta= 3.8094 3.9997  range=[-8.08 1.11]
+max.logdens= -43882.0821 fn= 18 theta= 3.7994 3.9997  range=[-8.08 1.11]
+Iter=1 |grad|=5.59e+03 |x-x.old|=3.4 |f-f.old|=1.8e+05 
+max.logdens= -43502.0456 fn= 22 theta= 3.7326 3.0027  range=[-8.34 1.12]
+max.logdens= -43449.1874 fn= 23 theta= 3.7226 3.0027  range=[-8.34 1.12]
+max.logdens= -41098.0123 fn= 27 theta= 3.0413 -5.9707  range=[-14.36 1.12]
+max.logdens= -41083.8737 fn= 28 theta= 3.0313 -5.9707  range=[-14.35 1.12]
+
+	file: smtp-taucs.c  hgid: 0bed76828f01  date: Tue Sep 03 11:21:49 2019 +0300
+	Function: GMRFLib_factorise_sparse_matrix_TAUCS(), Line: 876, Thread: 0
+	Fail to factorize Q. I will try to fix it...
+
+max.logdens= -41059.3728 fn= 33 theta= 3.0068 -6.4194  range=[-14.81 1.13]
+max.logdens= -41058.2481 fn= 34 theta= 3.0068 -6.4294  range=[-14.82 1.13]
+max.logdens= -41048.3508 fn= 35 theta= 2.9968 -6.4194  range=[-14.79 1.13]
+max.logdens= -41029.5942 fn= 38 theta= 2.9739 -6.8456  range=[-15.28 1.15]
+max.logdens= -41021.5294 fn= 39 theta= 2.9639 -6.8456  range=[-15.28 1.15]
+max.logdens= -41010.4680 fn= 43 theta= 2.9427 -7.2506  range=[-15.80 1.18]
+max.logdens= -41005.0680 fn= 46 theta= 2.9327 -7.2506  range=[-15.75 1.17]
+Iter=2 |grad|=635 |x-x.old|=7.98 |f-f.old|=2.93e+03 
+max.logdens= -40996.8867 fn= 48 theta= 2.9393 -6.2506  range=[-14.64 1.12]
+max.logdens= -40990.9297 fn= 50 theta= 2.9293 -6.2506  range=[-14.64 1.12]
+max.logdens= -40916.4066 fn= 53 theta= 2.9083 2.7494  range=[-8.40 1.12]
+max.logdens= -40913.2610 fn= 54 theta= 2.8983 2.7494  range=[-8.40 1.12]
+max.logdens= -40910.9991 fn= 59 theta= 2.9139 1.1291  range=[-8.98 1.12]
+max.logdens= -40906.9286 fn= 60 theta= 2.9039 1.1291  range=[-8.98 1.12]
+Iter=3 |grad|=413 |x-x.old|=5.81 |f-f.old|=99.2 Reached numerical limit!
+Optim: Number of function evaluations = 95
+Compute the Hessian using central differences and step_size[0.1]. Matrix-type [dense]
+Mode not sufficient accurate; switch to a stupid local search strategy.
+
+  8633.194201    11.031627
+    11.031627   110.983741
+Eigenvectors of the Hessian
+	0.999999	-0.001294
+	0.001294	0.999999
+Eigenvalues of the Hessian
+	8633.208481
+	110.969461
+StDev/Correlation matrix (scaled inverse Hessian)
+     0.010763    -0.011270
+                  0.094929
+max.logdens= -40904.5626 fn= 111 theta= 2.8929 1.0595  range=[-9.02 1.12]
+Compute corrected stdev for theta[0]: negative 1.000000  positive 0.411498
+Compute corrected stdev for theta[1]: negative 1.059718  positive 4.339873
+	config  0=[ 0.000 0.000] log(rel.dens)=1.024, [0] accept, compute, 4.09s
+	config  1=[ 0.750 0.000] log(rel.dens)=-3.628, [2] accept, compute, 6.05s
+	config  2=[ -0.750 -0.750] log(rel.dens)=2.729, [4] accept, compute, 7.61s
+	config  3=[ 0.000 -0.750] log(rel.dens)=-0.554, [1] accept, compute, 9.20s
+	config  4=[ -0.750 0.000] log(rel.dens)=2.688, [3] accept, compute, 9.30s
+	config  5=[ 1.500 0.000] log(rel.dens)=-7.408, reject, 1.93s
+	config  6=[ 0.750 0.750] log(rel.dens)=-4.599, [0] accept, compute, 7.36s
+	config  7=[ -0.750 0.750] log(rel.dens)=3.336, [6] accept, compute, 15.12s
+	config  8=[ 0.750 -0.750] log(rel.dens)=-3.921, [5] accept, compute, 15.13s
+	config  9=[ 0.000 0.750] log(rel.dens)=-0.151, [7] accept, compute, 15.16s
+	config 10=[ -1.500 0.000] log(rel.dens)=5.264, [2] accept, compute, 10.13s
+	config 11=[ -1.500 -0.750] log(rel.dens)=4.570, [4] accept, compute, 8.42s
+	config 12=[ -1.500 0.750] log(rel.dens)=5.913, [0] accept, compute, 6.55s
+	config 13=[ 0.000 -1.500] log(rel.dens)=-0.629, [1] accept, compute, 9.08s
+	config 14=[ 0.000 1.500] log(rel.dens)=0.394, [3] accept, compute, 9.08s
+max.logdens= -40903.5494 fn= 137 theta= 2.8902 1.0595  range=[-9.02 1.12]
+	config 15=[ -1.500 1.500] log(rel.dens)=6.023, [0] accept, compute, 7.95s
+	config 16=[ -0.750 -1.500] log(rel.dens)=2.859, [6] accept, compute, 11.02s
+	config 17=[ -0.750 1.500] log(rel.dens)=3.488, [5] accept, compute, 11.08s
+	config 18=[ 0.750 1.500] log(rel.dens)=-3.006, [2] accept, compute, 10.02s
+	config 19=[ 0.750 -1.500] log(rel.dens)=-4.255, [7] accept, compute, 11.19s
+	config 20=[ -1.500 -1.500] log(rel.dens)=5.130, [4] accept, compute, 9.90s
+	config 21=[ -2.250 0.000] log(rel.dens)=7.139, [1] accept, compute, 9.80s
+	config 22=[ 0.000 -2.250] log(rel.dens)=-0.379, [3] accept, compute, 9.93s
+max.logdens= -40903.5473 fn= 140 theta= 2.8903 0.9883  range=[-9.06 1.12]
+	config 23=[ 0.000 2.250] log(rel.dens)=0.237, [0] accept, compute, 5.55s
+	config 24=[ -2.250 -0.750] log(rel.dens)=7.141, [6] accept, compute, 9.79s
+	config 25=[ -2.250 0.750] log(rel.dens)=6.722, [5] accept, compute, 10.21s
+	config 26=[ -0.750 -2.250] log(rel.dens)=2.231, [2] accept, compute, 11.83s
+	config 27=[ -0.750 2.250] log(rel.dens)=3.295, [7] accept, compute, 11.84s
+	config 28=[ 0.750 -2.250] log(rel.dens)=-4.719, [4] accept, compute, 10.55s
+	config 29=[ -2.250 -1.500] log(rel.dens)=7.039, [3] accept, compute, 10.18s
+	config 30=[ 0.750 2.250] log(rel.dens)=-3.003, [1] accept, compute, 10.44s
+	config 31=[ -2.250 1.500] log(rel.dens)=7.000, [0] accept, compute, 7.89s
+max.logdens= -40901.7241 fn= 150 theta= 2.8822 0.9883  range=[-9.06 1.12]
+	config 32=[ -1.500 -2.250] log(rel.dens)=4.634, [6] accept, compute, 7.57s
+	config 33=[ -1.500 2.250] log(rel.dens)=5.691, [5] accept, compute, 7.55s
+	config 34=[ -0.750 -3.000] log(rel.dens)=1.302, [0] accept, compute, 8.05s
+	config 35=[ -3.000 -0.750] log(rel.dens)=8.964, [3] accept, compute, 10.29s
+	config 36=[ -3.000 0.750] log(rel.dens)=8.856, [1] accept, compute, 10.33s
+	config 37=[ -3.000 0.000] log(rel.dens)=8.921, [2] accept, compute, 10.64s
+	config 38=[ 0.000 -3.000] log(rel.dens)=-1.037, [7] accept, compute, 10.64s
+	config 39=[ 0.000 3.000] log(rel.dens)=-0.506, [4] accept, compute, 10.60s
+	config 40=[ -0.750 3.000] log(rel.dens)=2.916, [6] accept, compute, 8.13s
+	config 41=[ 0.750 -3.000] log(rel.dens)=-3.786, [5] accept, compute, 8.12s
+max.logdens= -40901.3230 fn= 165 theta= 2.8741 1.0595  range=[-9.02 1.12]
+	config 42=[ 0.750 3.000] log(rel.dens)=-3.689, [0] accept, compute, 7.83s
+	config 43=[ -2.250 -2.250] log(rel.dens)=6.372, [3] accept, compute, 9.11s
+	config 44=[ -2.250 2.250] log(rel.dens)=6.893, [1] accept, compute, 10.56s
+	config 45=[ -3.000 -1.500] log(rel.dens)=8.301, [2] accept, compute, 10.59s
+	config 46=[ -1.500 -3.000] log(rel.dens)=5.059, [4] accept, compute, 11.02s
+	config 47=[ -3.000 1.500] log(rel.dens)=8.429, [7] accept, compute, 11.10s
+	config 48=[ -1.500 3.000] log(rel.dens)=5.428, [6] accept, compute, 9.43s
+	config 49=[ -3.750 0.000] log(rel.dens)=9.365, [5] accept, compute, 9.70s
+	config 50=[ -3.000 -2.250] log(rel.dens)=7.477, [0] accept, compute, 7.47s
+	config 51=[ -3.000 2.250] log(rel.dens)=9.241, [3] accept, compute, 7.90s
+	config 52=[ -2.250 3.000] log(rel.dens)=7.964, [2] accept, compute, 9.97s
+	config 53=[ -2.250 -3.000] log(rel.dens)=6.074, [1] accept, compute, 10.03s
+	config 54=[ 0.000 -3.750] log(rel.dens)=-1.139, [4] accept, compute, 10.14s
+	config 55=[ -0.750 -3.750] log(rel.dens)=1.561, [0] accept, compute, 8.35s
+	config 56=[ 0.000 3.750] log(rel.dens)=0.916, [7] accept, compute, 11.24s
+	config 57=[ -3.750 0.750] log(rel.dens)=9.112, [5] accept, compute, 9.93s
+	config 58=[ -3.750 -0.750] log(rel.dens)=9.311, [6] accept, compute, 10.26s
+	config 59=[ -0.750 3.750] log(rel.dens)=3.303, [3] accept, compute, 7.39s
+max.logdens= -40901.2653 fn= 181 theta= 2.8739 1.2019  range=[-8.94 1.12]
+..done
+Killed
+Error in inla.inlaprogram.has.crashed() :
+  The inla-program exited with an error. Unless you interupted it yourself, please rerun with verbose=TRUE and check the output carefully.
+  If this does not help, please contact the developers at <help@r-inla.org>.
+Calls: inla -> inla.inlaprogram.has.crashed
+Execution halted
